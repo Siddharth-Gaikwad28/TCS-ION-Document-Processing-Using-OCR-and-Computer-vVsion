@@ -1,0 +1,8 @@
+Req Id,Test Scenario Id,Application/Screen,High Level Test Conditions,Expected Results,Priority
+REQ01,TS01,Document Upload Screen,"Test extraction of invoice numbers, dates, amounts from scanned docs.",Structured data extracted with confidence > 0.9.,High
+REQ03,TS03,Document Classification Engine,"Classify invoices, contracts, reports, emails, memos, receipts, POs.",F1-score > 0.85 across all 7 document types.,High
+REQ04,TS04,NLP Field Extraction,"Validate date, amount, vendor, email, PO number extraction via regex.",>90% field-level accuracy on benchmark docs.,Medium
+REQ05,TS05,A/B Testing — OCR PSM,Compare Tesseract PSM 6 vs PSM 3 word count on sample documents.,Winner PSM mode identified and documented in report.,Medium
+REQ06,TS06,A/B Testing — Classifier,Compare RandomForest vs NaiveBayes accuracy on same dataset.,Best model selected and saved for deployment.,Medium
+REQ07,TS07,Flask API Deployment,POST /process with image file; GET /health check.,"HTTP 200, JSON response, latency < 3s per page.",Medium
+REQ08,TS08,Streamlit Frontend Integration,"Upload via UI → display type, fields, confidence. API mode toggle.",Results displayed within 5 seconds; both local and API modes work.,Medium
