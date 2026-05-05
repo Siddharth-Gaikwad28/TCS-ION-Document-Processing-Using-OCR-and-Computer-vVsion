@@ -1,4 +1,4 @@
-# TCS-ION-Document-Processing-Using-OCR-and-Computer-vVsion
+# TCS-ION-Document-Processing-Using-OCR-and-Computer-Vision
 AI-powered document processing system using OCR, NLP, and Machine Learning to extract, classify, and structure data from scanned corporate documents.
 📌 AI-Powered Document Processing System
 
