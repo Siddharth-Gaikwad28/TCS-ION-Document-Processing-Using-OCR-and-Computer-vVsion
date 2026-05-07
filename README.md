@@ -3,7 +3,7 @@
 
 > **TCS iON AIP 135 Curriculum Project**  
 > F.Y.M.Sc Statistics & Data Science — Vishwakarma University, Pune  
-> **Author:** Siddharth Gaikwad (31252434) &nbsp;|&nbsp; **Mentor:** Dr. Raeesa Bashir
+> **Author:** Siddharth Gaikwad (31252434) &nbsp;|&nbsp; 
 
 ---
 
@@ -270,18 +270,6 @@ pip install torch transformers
 | RVL-CDIP (Harley et al., 2015) | 25 | Non-commercial research |
 
 All synthetic documents use procedurally generated dummy values. No personally identifiable information was used or stored at any stage.
-
----
-
-## 📚 Citation
-
-If you use this work, please cite:
-
-```
-Gaikwad, S. (2025). AI-Powered Document Processing System Using Vision Intelligence
-and Machine Learning. TCS iON AIP 135 Curriculum Project, F.Y.M.Sc Statistics &
-Data Science, Vishwakarma University, Pune.
-```
 
 ---
 
